@@ -50,3 +50,9 @@ form button{
     pointer-events: none;
     opacity: 0.5 ;
 }
+form input:valid ~ button{
+    opacity: 1;
+    background-color:rgb(250, 231, 104);
+    pointer-events: auto;
+    
+}
